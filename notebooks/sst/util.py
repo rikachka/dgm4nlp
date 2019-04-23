@@ -12,7 +12,7 @@ def get_minibatch(data, batch_size=25, shuffle=False):
     """Return minibatches, optional shuffling"""
 
     if shuffle:
-        print("Shuffling training data")
+#        print("Shuffling training data")
         random.shuffle(data)  # shuffle training data each epoch
 
     batch = []
